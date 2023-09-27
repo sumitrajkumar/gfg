@@ -1,0 +1,54 @@
+.back-color{
+    background-color: black;
+}
+
+.card3 .card-body{
+    height: 2vw;
+   
+    padding: 8px;
+}
+.all-cards3 .card img{
+    height: 8vw;
+    
+}
+
+
+
+.card3{
+    
+    margin: 5px;
+    height: 14vw;
+    width: 20vw;
+    overflow: hidden;
+    height: 18vw;
+}
+.back-colorr{
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    margin-top: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card3 p{
+    font-size: 1vw;
+}
+.card3 h5{
+    font-size: 1.4vw;
+    text-overflow: ellipsis;
+}
+.all-cards3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.card3:hover{
+    box-shadow:0px 0px 3px 4px grey;
+}
+
+.fifth-page-heading{
+    color: white;
+    font-size: 2vw;
+}

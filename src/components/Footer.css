@@ -1,0 +1,27 @@
+.height
+{
+    display: flex;
+    flex-direction: column ;
+    color: white;
+  
+}
+.footer_flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#first-footer{
+    color: green;
+    margin-bottom: 5px;
+}
+#new-font{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.hover:hover{
+    color: green;
+    cursor: pointer;
+}
+

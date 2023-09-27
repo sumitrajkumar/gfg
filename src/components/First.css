@@ -1,0 +1,10 @@
+.second-navbar{
+    display: flex;
+    margin-top: 1px;
+    height: 30px;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

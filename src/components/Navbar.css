@@ -1,0 +1,54 @@
+.navbar{
+
+    font-size: 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+.navbar1{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+   
+}
+.menubar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.menubar img{
+
+    margin:5px;
+    margin-right: 10px;
+}
+
+#gfg-image{
+    margin: 5px;
+    width: 20vw;
+}
+
+#user{
+    margin-left: 15px;
+}
+
+
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: green;
+}
+
+.navbar .dropdown-menu{
+    background-color: black;
+}
+
+.full-navbar{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 800px) {
+    .image {
+      display: none;
+    }
+  }
