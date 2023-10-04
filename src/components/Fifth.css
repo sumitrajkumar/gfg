@@ -50,5 +50,69 @@
 
 .fifth-page-heading{
     color: white;
-    font-size: 2vw;
+    font-size: 30px;
+    font-weight:700;
+}
+
+
+/*  for smaller screen   */
+
+
+@media screen and (600px < width <= 800px)  { 
+   
+    .card3 {
+        width: 28vw;
+        height: 26vh;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+       
+    }
+
+    .card3 p {
+        font-size: 1.5vw;
+        white-space: normal;
+    }
+
+    .card3 .card-title {
+        font-size: 12px;
+
+    }
+   
+}
+
+@media screen and (width <= 600px) {
+    /*                           signup                                                  */
+    
+    .group input {
+        width: 76vw;
+    }
+
+    /*                                        card                                       */
+    .back-colorr {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .card3 {
+        width: 85vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .back-colorr img {
+        width: 40vw;
+    }
+
+    .back-colorr p {
+        font-size: 12px;
+    }
+
+    .back-colorr .card-title {
+        font-size: 16px;
+    }
+
+
 }

@@ -3,6 +3,7 @@ import './Second.css'
 function Second() {
     return (
         <>
+        <div className='all-color'>
             <div class="second-page-middle-content">
                 <p id="para">Hello, What Do You Want To Learn?</p>
 
@@ -52,13 +53,13 @@ function Second() {
                 <div className='size'>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="1000000000">
-                            <div class="card">
+                        <div class="carousel-item active" data-bs-interval="1000000">
+                            <div class="card ">
                                 <div class="row g-0">
-                                    <div class="col-8">
+                                    <div class="col-md-8">
                                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230803173237/Google-Workspace-copy-(1).webp" class="img-fluid rounded-start" alt="..." />
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="card-body">
                                             <h5 class="card-title">Maximising Productivity with Google Workspace</h5>
                                             <p class="card-text">When starting a  business selecting the right email and office software to power your operations is crucial.Choosing the right software for your</p>
@@ -67,13 +68,13 @@ function Second() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="2000000">
                             <div class="card" >
                                 <div class="row g-0">
-                                    <div class="col-8">
+                                    <div class="col-md-8">
                                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230912135127/reactjs-cheat-sheet-2-copy.webp" class="img-fluid rounded-start" alt="..." />
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="card-body">
                                             <h5 class="card-title">React Cheat Sheet</h5>
                                             <p class="card-text">Reactis an open-source javaScript library used to create user interfaces in a declaration and effective way.It is a component-based front-end library responsible for...</p>
@@ -85,10 +86,10 @@ function Second() {
                         <div class="carousel-item">
                             <div class="card mb-3">
                                 <div class="row g-0">
-                                    <div class="col-8">
+                                    <div class="col-md-8">
                                         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230505175603/100-Days-of-Machine-Learning.webp" class="img-fluid rounded-start" alt="..." />
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="card-body">
                                             <h5 class="card-title">100 Days of Machine Learning -A Complete Guide For Begineers</h5>
                                             <p class="card-text">Machine Learning is a rapidly growing field wihthin the broader domain of Artificial Intelligence. It involves developing...</p>
@@ -110,7 +111,7 @@ function Second() {
 
 
             </div>
-
+                </div>
             </div>
 
         </>

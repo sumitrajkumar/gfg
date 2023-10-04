@@ -1,4 +1,4 @@
-.second-page-middle-content{
+.second-page-middle-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,8 @@
     color: white;
     margin-top: 6vh;
 }
-.group button{
+
+.group button {
     width: 85px;
     height: 47px;
     background-color: rgb(37, 37, 37);
@@ -14,26 +15,30 @@
     margin-bottom: 0.8vh;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius:15px;
-    border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.group input{
+
+.group input {
     width: 410px;
     height: 47px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    border-top-right-radius:0px;
-    border-bottom-right-radius:0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-#para{
+
+#para {
     font-family: sans-serif;
     font-size: 20px;
 }
-.second_page_below_input{
+
+.second_page_below_input {
     display: flex;
     justify-content: center;
 }
-.second_page_below_input p{
+
+.second_page_below_input p {
     font-size: 12px;
     margin-left: 13px;
     padding: 8px;
@@ -41,71 +46,87 @@
     color: white;
     border-radius: 5px;
 }
-body{
-    background-image:linear-gradient(rgb(60, 60, 60),black);
+
+body {
+    background-image: linear-gradient(rgb(60, 60, 60), black);
     background-repeat: no-repeat;
 }
-.group .btn{
-        background-color: black;
+
+.group .btn {
+    background-color: black;
 }
 
 
 
 
-.card{
-    
+.card {
+
     margin: 5px;
     height: 14vw;
     width: 20vw;
     overflow: hidden;
 }
-.back-color{
+
+.back-color {
     display: flex;
-    background-color: rgb(34, 34, 34);
     padding: 10px;
     margin-top: 30px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.card p{
+
+.card p {
     font-size: 1vw;
 }
-.card h5{
+
+.card h5 {
     font-size: 1.4vw;
     text-overflow: ellipsis;
 }
-.all-cards{
+
+.all-cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.card:hover{
-    box-shadow:0px 0px 3px 4px grey;
+
 }
 
+.card:hover {
+    box-shadow: 0px 0px 3px 4px grey;
+    z-index: 1;
+}
+
+.all-color {
+    background-image: linear-gradient(rgb(60, 60, 60), black);
+}
 
 
 
 
-
-.carousel-item{
+.carousel-item {
     width: 63.2vw;
-    background-color: rgb(34, 34, 34);
-    margin-bottom: 15px;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 45px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.carousel-item .card{ /* white part (whole card) */
+
+.carousel-item .card {
+    /* white part (whole card) */
     width: 62vw;
-    height:17vw;
+    height: 17vw;
 }
-.carousel-item img{
+
+.carousel-item img {
 
     width: 650px;
 }
-.carousel-item .card-body{
+
+.carousel-item .card-body {
     width: 314px;
+
 }
 
 
@@ -114,113 +135,114 @@ body{
 
 
 
-@media screen and (max-width: 800px) {
-    .card{
+@media screen and (600px < width <= 800px)  { 
+   
+    .card {
         width: 28vw;
-        height:22vw
+        height: 22vw
     }
-    .card p{
+
+    .card p {
         font-size: 1.5vw;
         white-space: normal;
     }
-    .card .card-title{
+
+    .card .card-title {
         font-size: 12px;
-        
+
     }
-    .carousel-item { /* white part (whole card) */
-        width: 90vw;
-        height:25vw;
-    }
-    .carousel-item .card{ /* white part (whole card) */
-        width: 88vw;
-        height:24vw;
-       
-    }
-    .carousel-item .card-body{
-        
-        width: 29vw;
-        height: 22vw;
-    }
-   
-    
-    
-  }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*
-
   
-                    <div className='same-box'>
-                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item" data-bs-interval="10000">
-                                    <div class="card mb-3">
-                                        <div class="row g-0">
-                                            <div class="col-md-6">
-                                                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230803173237/Google-Workspace-copy-(1).webp" class="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Maximising Productivity with Google Workspace</h5>
-                                                    <p class="card-text">When starting a  business selecting the right email and office software to power your operations is crucial.Choosing the right software for your</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="20000">
-                                    <div class="card mb-3">
-                                        <div class="row g-0">
-                                            <div class="col-md-6">
-                                                <img src="	https://media.geeksforgeeks.org/wp-content/uploads/20230912135127/reactjs-cheat-sheet-2-copy.webp" class="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">React Cheat Sheet</h5>
-                                                    <p class="card-text">Reactis an open-source javaScript library used to create user interfaces in a declaration and effective way.It is a component-based front-end library responsible for...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="card mb-3" >
-                                        <div class="row g-0">
-                                            <div class="col-md-6">
-                                                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230505175603/100-Days-of-Machine-Learning.webp" class="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">100 Days of Machine Learning -A Complete Guide For Begineers</h5>
-                                                    <p class="card-text">Machine Learning is a rapidly growing field wihthin the broader domain of Artificial Intelligence. It involves developing...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+    .carousel-item {
+        /* white part (whole card) */
+        width: 90vw;
+        height: 34vw;
+        border: 2px solid red;
+    }
 
-                    </div>
-*/
+    .carousel-item .card {
+        /* white part (whole card) */
+        width: 87vw;
+        height: 32vw;
+        border: 2px solid green;
+    }
+
+    .carousel-item .card-body {
+        border: 2px solid purple;
+        width: 79vw;
+        height: 15vw;
+    }
+    .carousel-item img {
+
+        width: 830px;
+        height: 20vw;
+    }
+
+}
+
+@media screen and (width <= 600px) {
+    /*                           signup                                                  */
+    
+    .group input {
+        width: 76vw;
+    }
+
+    /*                                        card                                       */
+    .back-color {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .card {
+        width: 85vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .back-color img {
+        width: 40vw;
+    }
+
+    .back-color p {
+        font-size: 12px;
+    }
+
+    .back-color .card-title {
+        font-size: 16px;
+    }
+
+    /*                                  carousel                                       */
+
+    .carousel-item {
+        width: 90vw;
+        height: 36vh;
+    }
+
+    .carousel-item .card {
+        /* white part (whole card) */
+        
+        height: 35vh;
+        width: 86vw;
+       
+        margin: 0;
+    }
+
+    .carousel-item img {
+
+        width: 970px;
+        height: 160px;
+    }
+
+    .carousel-item .card-body {
+        width: 420px;
+      
+    }
+    .carousel-item p {
+       font-size: 10px;
+    }
+    .carousel-item .card-title{
+        font-size: 15px;
+    }
+
+}

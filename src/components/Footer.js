@@ -10,7 +10,11 @@ function Footer() {
           </div>
           <div id="new-font" className='hover'>A-143,9th Floor,Sovereign Corporate Tower, Sector-136,Noida,Uttar Pradesh</div>
           <div id="new-font" className='hover'>feedback@geeksforgeeks.org</div>
-
+          <div>
+            <img src="youtube.png" className='social-acc' id="youtube"/>
+            <img src="inta.png" className='social-acc' id="inta" />
+            <img src="twitter.png" className='social-acc' id="twitter" />
+          </div>
         </div>
 
 

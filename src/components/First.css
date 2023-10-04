@@ -1,10 +1,19 @@
-.second-navbar{
+.second-navbar-first{
     display: flex;
     margin-top: 1px;
-    height: 30px;
-    justify-content: space-around;
-    font-size: 14px;
-    background-color: black;
+    padding-top: 2px;
     color: white;
-    text-align: center;
+    overflow: auto;
+    text-wrap: nowrap;
+    background-color: black;
+    height: 40px;
+  }
+  .second-navbar-first p{
+    margin-right: 15px;
+  }
+  .second-navbar-first::-webkit-scrollbar{
+    width: 0;
 }
+  
+  
+  

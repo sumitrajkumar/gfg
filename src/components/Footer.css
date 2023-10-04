@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 40px;
 }
@@ -24,4 +25,9 @@
     color: green;
     cursor: pointer;
 }
+.social-acc{
+    margin-right: 5px;
+    width: 40px;
+}
+
 

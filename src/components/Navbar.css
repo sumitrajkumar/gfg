@@ -1,4 +1,4 @@
-.navbar{
+.navbar1{
 
     font-size: 1px;
     padding-top: 2px;
@@ -20,6 +20,9 @@
 
     margin:5px;
     margin-right: 10px;
+}
+#toogle-button{
+    display: none;
 }
 
 #gfg-image{
@@ -47,8 +50,19 @@
     margin: 0;
     padding: 0;
 }
+.menu-btn{
+    font-size: 32px;
+    color: white;
+    display: none;
+
+}
+
+
 @media screen and (max-width: 800px) {
     .image {
       display: none;
     }
+    
+    
+    
   }

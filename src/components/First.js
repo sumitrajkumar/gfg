@@ -3,26 +3,29 @@ import './First.css'
 function First() {
   return (
     <>
-        <div className="second-navbar">
-          <p className="scroll">Trending Now</p>
-          <p className="scroll">Data Structures</p>
-          <p className="scroll">Algoriths</p>
-          <p className="scroll">DSA to Development</p>
-          <p className="scroll">Data Science</p>
-          <p className="scroll">Topic-wiese-practice</p>
-          <p className="scroll">Python</p>
-          <p className="scroll">Machine Learning</p>
-          <p className="scroll">javaScript</p>
-          <p className="scroll">Java</p>
-          <p className="scroll">C</p>
-          <p className="scroll">C++</p>
-          <p className="scroll">ReactJS</p>
-          <p className="scroll">NodeJS</p>
-          <p className="scroll">Competitive Programming</p>
-          <p className="scroll">Aptitude</p>
-          <p className="scroll">Puzzles</p>
-          <p className="scroll">Projects</p>
-          
+        <div className="second-navbar-first">
+          <p className="sscroll=">Trending Now</p>
+          <p className="sscroll=">Data Structures</p>
+          <p className="sscroll=">Algoriths</p>
+          <p className="sscroll=">DSA to Development</p>
+          <p className="sscroll=">Data Science</p>
+          <p className="sscroll=">Topic-wiese-practice</p>
+          <p className="sscroll=">Python</p>
+          <p className="sscroll=">Machine Learning</p>
+          <p className="sscroll=">javaScript</p>
+          <p className="sscroll=">Java</p>
+          <p className="sscroll=">C</p>
+          <p className="sscroll=">C++</p>
+          <p className="sscroll=">ReactJS</p>
+          <p className="sscroll=">NodeJS</p>
+          <p className="sscroll=">Competitive Programming</p>
+          <p className="sscroll=">Aptitude</p>
+          <p className="sscroll=">Puzzles</p>
+          <p className="sscroll=">Projects</p>
+          <p className="sscroll=">Python</p>
+          <p className="sscroll=">Competitive Programming</p>
+
+
         </div>
 
     </>
